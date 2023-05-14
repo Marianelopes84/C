@@ -10,7 +10,7 @@ int main() {
 
     int chute;
 
-        for(int i = 1; i <= 3; i++) {
+           for(int i = 1; i <= 3; i++) {
         printf("Qual é o seu chute? ");
         scanf("%d", &chute);
         printf("Seu chute foi %d\n", chute);
@@ -30,7 +30,4 @@ int main() {
 
             }
         }
-   
-  
-
-}
+    }
