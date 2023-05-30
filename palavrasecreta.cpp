@@ -5,17 +5,19 @@ int main(){
 	char palavrasecreta [20];
 	sprintf(palavrasecreta, "MELANCIA");
 	
+	int i;
 	int acertou = 0;
 	int enforcou = 1;
 	
 	do{
 		char chute;
+		printf("Qual eh a Letra?");
 		scanf("%c", &chute);
 		
-		for (int i = 0; i < strlen(palavrasecreta); i++){
+		for (i = 0; i < strlen(palavrasecreta); i++){
 		
 			if (palavrasecreta[i] == chute) {
-			printf("A posição %d tem essa letra!\n", i);
+			printf("A posicao %d tem essa letra!\n", i);
 		}
 	} 
 	
